@@ -16,3 +16,7 @@ print(np.sum(x))
 
 r1 = rng.random(10)
 print(r1)
+
+import math
+
+math.sin()
