@@ -28,9 +28,5 @@ s2 = pd.Series(
 print(s2)
 print("-" * 50)
 
-s3 = pd.read_json(
-    "./data/countries_with_code.json",
-)
-countries = s3.get("name")
-
-print()
+countries_db = pd.read_csv("./data/countries_with_code.csv.gz", index_col="code")
+print(countries_db)
