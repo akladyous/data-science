@@ -20,15 +20,16 @@ s1 = Series(
     name="Random Integers",
 )
 print(s1)
+print("-" * 50)
 
 s2_data = {chr(97 + x): x for x in range(5)}
-print(
-    "indexes = : ",
-    list(map(lambda x: x.upper(), s2_data.keys())),
-)
+s2_indexes = list(map(lambda x: x.upper(), s2_data.keys()))
 s2 = pd.Series(
     data=s2_data,
     dtype=np.int8,
     name="Dict Comprehension",
 )
+
 print(s2)
+result = s2.get(6, False)
+print(result)
