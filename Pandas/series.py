@@ -26,4 +26,6 @@ s2 = pd.Series(
     name="Dict Comprehension",
 )
 print(s2)
+print(s2.iloc[0:2])
+print(s2.loc["c"])
 print("-" * 50)
