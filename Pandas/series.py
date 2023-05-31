@@ -27,6 +27,3 @@ s2 = pd.Series(
 )
 print(s2)
 print("-" * 50)
-
-countries_db = pd.read_csv("./data/countries_with_code.csv.gz", index_col="code")
-print(countries_db)
