@@ -11,8 +11,8 @@ import numpy as np
 # print("np.array {0:>20} ".format(str(arr1d)))
 
 rng = np.random.default_rng(31)
-rand_int = rng.integers(1, 10, 5)
-print(rand_int)
+rand_int = rng.integers(1, 10, 5, endpoint=True)
+print("random 5 integers : ", rand_int, "\n")
 
 r_float = rng.random(10)
 print(r_float)
