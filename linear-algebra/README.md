@@ -2,9 +2,9 @@
 
 ## Introduction
 
-Welcome to the Linear Algebra for Data Science repository! This repository
-contains examples, tutorials, and resources related to linear algebra in the
-context of data science, utilizing the powerful libraries Pandas and NumPy.
+Welcome to the Linear Algebra for Data Science repository! This repository contains examples,
+tutorials, and resources related to linear algebra in the context of data science, utilizing the
+powerful libraries Pandas and NumPy.
 
 ## Contents
 
@@ -18,8 +18,8 @@ context of data science, utilizing the powerful libraries Pandas and NumPy.
 
 ## Getting Started
 
-To get started with linear algebra for data science using Pandas and NumPy,
-follow the installation instructions below.
+To get started with linear algebra for data science using Pandas and NumPy, follow the installation
+instructions below.
 
 ### Installation
 
