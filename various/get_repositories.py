@@ -26,3 +26,8 @@ def get_repositories(username):
         repositories.add(repo["name"])
 
     return list(repositories)
+
+
+# ----------------------------------------------------------------------------------------------------
+repos = get_repositories("gadamico")
+print(repos)
