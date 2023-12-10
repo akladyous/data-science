@@ -6,17 +6,22 @@ your data. Two commonly used approaches are the Square Root Rule and Sturges' Fo
 ### 1. Square Root Rule:
 
 - Calculate the square root of the total number of data points.
-- Round up to the nearest whole number. \[ \text{Number of Bins} = \lceil \sqrt{\text{Total Number
-  of Data Points}} \rceil \]
+- Round up to the nearest whole number.
 
-- Example: \[ \text{Number of Bins} = \lceil \sqrt{100} \rceil = \lceil 10 \rceil = 10 \]
+  - Number of Bins = Ceiling(Square Root of Total Number of Data Points)
+
+- Example:
+  - Number of Bins = Ceiling(Square Root of 100) = Ceiling(10) = 10
 
 ### 2. Sturges' Formula:
 
-- Use Sturges' formula: \[ \text{Number of Bins} = 1 + \log_2(\text{Total Number of Data Points}) \]
+- Use Sturges' formula:
 
-- Example: \[ \text{Number of Bins} = 1 + \log_2(100) \approx 1 + 6.64 \approx 7.64 \]
-  - Round up to the nearest whole number: \(\lceil 7.64 \rceil = 8\)
+  - Number of Bins = 1 + Log base 2 (Total Number of Data Points)
+
+- Example:
+  - Number of Bins = 1 + Log base 2 (100) ≈ 1 + 6.64 ≈ 7.64
+  - Round up to the nearest whole number: Ceiling(7.64) = 8
 
 Remember, the optimal number of bins can vary. Experiment with different bin widths to visually
 inspect the distribution and choose what makes sense for your dataset.
@@ -25,33 +30,33 @@ inspect the distribution and choose what makes sense for your dataset.
 
 1. **Determine the Range:**
 
-   - Calculate the range by subtracting the minimum from the maximum value. \[ \text{Range} =
-     \text{Maximum} - \text{Minimum} \]
+   - Calculate the range by subtracting the minimum from the maximum value.
+   - Range = Maximum - Minimum
 
 2. **Select the Number of Intervals (Bins):**
 
-   - Choose a suitable number based on the nature and size of your data. \[ \text{Number of
-     Intervals} = 5 \, \text{to} \, 20 \]
+   - Choose a suitable number based on the nature and size of your data.
+   - Number of Intervals = 5 to 20
 
 3. **Calculate the Interval Width:**
 
-   - Divide the range by the number of intervals. \[ \text{Interval Width} =
-     \frac{\text{Range}}{\text{Number of Intervals}} \]
+   - Divide the range by the number of intervals.
+   - Interval Width = Range / Number of Intervals
 
 4. **Determine a Starting Point:**
 
-   - Choose a starting point with more precision than the data. \[ \text{Starting Point} =
-     \text{Smallest Data Value} - \text{Small Value for Precision} \]
+   - Choose a starting point with more precision than the data.
+   - Starting Point = Smallest Data Value - Small Value for Precision
 
 5. **Create Class Limits:**
 
-   - Use the starting point to create class limits for each interval. \[ \text{Class Limits} =
-     \text{Starting Point} + \text{Interval Width} \]
+   - Use the starting point to create class limits for each interval.
+   - Class Limits = Starting Point + Interval Width
 
 6. **Calculate Class Midpoints:**
 
-   - For each interval, calculate the class midpoint. \[ \text{Class Midpoint} = \frac{\text{Lower
-     Class Limit} + \text{Upper Class Limit}}{2} \]
+   - For each interval, calculate the class midpoint.
+   - Class Midpoint = (Lower Class Limit + Upper Class Limit) / 2
 
 7. **Ensure No Data Falls on Boundaries:**
    - Round class limits and midpoints appropriately.
