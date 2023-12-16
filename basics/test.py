@@ -1,1 +1,3 @@
-import numpy as np
+import math
+
+print(math.perm(10, 4))
