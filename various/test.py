@@ -1,3 +1,6 @@
+import numpy as np
+from itertools import permutations
+
 sample_space = {x for x in range(1, 11)}
 
 # Count the number of even numbers in the sample space
