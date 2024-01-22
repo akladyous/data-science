@@ -1,6 +1,7 @@
 import requests
 
 username = "gadamico"
+
 url = f"https://api.github.com/users/{username}/events"
 
 
