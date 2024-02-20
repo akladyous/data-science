@@ -1,14 +1,21 @@
 #include <iostream>
 
 int main() {
-  int x = 0;
-  int counter;
-  std::cin >> counter;
+    int x = 0;
+    int counter;
 
-  while (counter >= 0) {
-    std::cout << "value of counter: " << counter << std::endl;
-    counter --;
-  }
+    std::system("clear");
+    std::system("git status");
+    std::cout << "Enter a number: ";
 
-  return 0;
+    std::cin >> counter;
+    if (counter <= 0) { // Corrected the condition
+        return 1;
+    }
+    counter--; // Decrements counter if it's greater than 1
+    while (counter >= 0) {
+        std::cout << "value of counter: " << counter << std::endl;
+        counter--;
+    }
+    return 0;
 }
