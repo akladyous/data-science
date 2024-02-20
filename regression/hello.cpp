@@ -1,10 +1,13 @@
 #include <iostream>
 
 int main() {
-  std::cout << "Hello, World!" << std::endl;
-  int x1;
-  int x2;
-  // int result = x1 + x2;
-  std::cout << x1;
+  int x = 0;
+  int counter{10};
+
+  while (counter >= 0) {
+    std::cout << "value of counter: " << counter << std::endl;
+    counter --;
+  }
+
   return 0;
 }
