@@ -5,7 +5,6 @@ int main() {
     int counter;
 
     std::system("clear");
-    std::system("git status");
     std::cout << "Enter a number: ";
 
     std::cin >> counter;
