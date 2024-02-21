@@ -1,0 +1,81 @@
+{
+  "dataScience": {
+    "statistics": {
+      "data collection": [],
+      "Level Of Measurement": [],
+      "Types of Statistical Analysis": {
+        "Descriptive Statistics": [],
+        "Inferential Statistics": {
+          "Central Limit Theorem": [],
+          "Sampling Distributions": [],
+          "Confidence Interval": [],
+          "Hypothesis Testing": [],
+          "Regression Analysis": {
+            "Linear Regression": {
+              "Simple Linear Regression": "One independent variable predicts a dependent variable linearly.",
+              "Multiple Linear Regression": "Multiple independent variables predict a dependent variable linearly."
+            },
+            "Nonlinear Regression": {
+              "Polynomial Regression": "Models a nonlinear relationship using polynomial functions.",
+              "Logistic Regression": "Models a binary outcome or probability.",
+              "Poisson Regression": "Models counts or occurrences in a fixed interval of time or space.",
+              "Exponential Regression": "Models exponential growth or decay."
+            },
+            "Regularized Regression": {
+              "Lasso Regression": [
+                "L1 regularization technique.",
+                "Encourages sparse models by introducing a penalty term."
+              ],
+              "Ridge Regression": [
+                "L2 regularization technique.",
+                "Encourages sparse models by introducing a penalty term.",
+                "Addresses multicollinearity by adding a regularization term."
+              ]
+            },
+            "Regression Error": "",
+            "Standard Error": ""
+          },
+          "Lurking Variables": "Variables that are not included in the study but may affect the outcome."
+        }
+      }
+    },
+    "Probability": [],
+    "Probability Distributions": {
+      "Discrete Probability Distribution": {
+        "Bernoulli Distribution": "",
+        "Binomial Distribution": "",
+        "Poisson Distribution": ""
+      },
+      "Continuous Probability Distribution": {
+        "Standard Normal Distribution": "",
+        "Uniform Distribution": "",
+        "Normal Distribution": "",
+        "Binomial Distribution": "",
+        "Poisson Distribution": "",
+        "Chi Square Distribution": "",
+        "Student T Distribution": "",
+        "F Distribution": "",
+        "Exponential Distribution": "",
+        "Gamma Distribution": "",
+        "Beta Distribution": "",
+        "Logistic Distribution": "",
+        "Geometric Distribution": "",
+        "Exponential Family Distribution": "",
+        "Multinomial Distribution": "",
+        "Multivariate Normal Distribution": ""
+      },
+      "Probability Mass Function (PMF)": "",
+      "Probability Density Function (PDF)": "",
+      "Cumulative Distribution Function (CDF)": ""
+    },
+    "Regression Error": "",
+    "Standard Error": "",
+    "Correlation": "",
+    "Time Series": "",
+    "Clustering": "",
+    "Dimensionality Reduction": "",
+    "Anomaly Detection": "",
+    "Association Rule Learning": "",
+    "Decision Tree": ""
+  }
+}
