@@ -22,10 +22,7 @@
               "Exponential Regression": "Models exponential growth or decay."
             },
             "Regularized Regression": {
-              "Lasso Regression": [
-                "L1 regularization technique.",
-                "Encourages sparse models by introducing a penalty term."
-              ],
+              "Lasso Regression": ["L1 regularization technique.", "Encourages sparse models by introducing a penalty term."],
               "Ridge Regression": [
                 "L2 regularization technique.",
                 "Encourages sparse models by introducing a penalty term.",
@@ -38,14 +35,17 @@
               "Logarithmic Transformation": "Applying logarithmic transformations to handle exponential relationships.",
               "Encoding Categorical Variables": "Transforming categorical variables into numerical representations."
             },
-            "Regression Error": "",
-            "Standard Error": ""
+            "Regression Error": "Difference between predicted and actual values.",
+            "Standard Error": "Measure of variability of a statistic (e.g., regression coefficient)."
           },
           "Lurking Variables": "Variables that are not included in the study but may affect the outcome."
         }
       }
     },
-    "Probability": [],
+    "Probability": {
+      "concepts": ["Random Events", "Sample Space", "Events", "Probability of an Event"],
+      "applications": ["Decision Making", "Risk Assessment", "Machine Learning"]
+    },
     "Probability Distributions": {
       "Discrete Probability Distribution": {
         "Bernoulli Distribution": "",
@@ -83,5 +83,28 @@
     "Anomaly Detection": "",
     "Association Rule Learning": "",
     "Decision Tree": ""
+  },
+  "Machine Learning": {
+    "preprocessing": { "Feature Selection": {}, "Data Cleaning": {}, "Normalization": {} },
+    "algorithms": {
+      "Supervised Learning": {},
+      "Unsupervised Learning": {},
+      "Semi-Supervised Learning": {}
+    },
+    "Deep Learning": {
+      "algorithms": {
+        "Convolutional Neural Networks (CNNs)": {},
+        "Recurrent Neural Networks (RNNs)": {},
+        "Generative Adversarial Networks (GANs)": {}
+      }
+    },
+    "Loss Functions": {},
+    "Hyperparameter Tuning": {},
+    "Evaluation Metrics": {},
+    "Bias-Variance Tradeoff": {},
+    "Overfitting and Underfitting": {},
+    "Cross-Validation": {},
+    "Regularization": {},
+    "Gradient Descent": {}
   }
 }
