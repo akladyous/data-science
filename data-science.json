@@ -87,7 +87,35 @@
   "Machine Learning": {
     "preprocessing": { "Feature Selection": {}, "Data Cleaning": {}, "Normalization": {} },
     "algorithms": {
-      "Supervised Learning": {},
+      "Supervised Learning": {
+        "classification": {
+          "Logistic Regression": {},
+          "Support Vector Machines (SVM)": {},
+          "Decision Trees": {},
+          "Random Forest": {},
+          "K-Nearest Neighbors (KNN)": {},
+          "Naive Bayes": {},
+          "Gradient Boosting": {},
+          "AdaBoost": {},
+          "XGBoost": {},
+          "LightGBM": {},
+          "CatBoost": {}
+        },
+        "regression": {
+          "Linear Regression": {},
+          "Ridge Regression": {},
+          "Lasso Regression": {},
+          "Elastic Net": {},
+          "Support Vector Regression (SVR)": {},
+          "Decision Trees": {},
+          "Random Forest": {},
+          "Gradient Boosting": {},
+          "AdaBoost": {},
+          "XGBoost": {},
+          "LightGBM": {},
+          "CatBoost": {}
+        }
+      },
       "Unsupervised Learning": {},
       "Semi-Supervised Learning": {}
     },
@@ -104,7 +132,12 @@
     "Bias-Variance Tradeoff": {},
     "Overfitting and Underfitting": {},
     "Cross-Validation": {},
-    "Regularization": {},
-    "Gradient Descent": {}
+    "Regularization": {
+      "L1 Regularization": {},
+      "L2 Regularization": {}
+    },
+    "Optimizers": {
+      "Gradient Descent": {}
+    }
   }
 }
