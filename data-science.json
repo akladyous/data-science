@@ -12,25 +12,25 @@
           "Hypothesis Testing": [],
           "Regression Analysis": {
             "Linear Regression": {
-              "Simple Linear Regression": "One independent variable predicts a dependent variable linearly",
-              "Multiple Linear Regression": "Multiple independent variables predict a dependent variable linearly"
+              "Simple Linear Regression": "One independent variable predicts a dependent variable linearly.",
+              "Multiple Linear Regression": "Multiple independent variables predict a dependent variable linearly."
             },
             "Nonlinear Regression": {
-              "Polynomial Regression": "Models a nonlinear relationship using polynomial functions",
+              "Polynomial Regression": "Models a nonlinear relationship using polynomial functions.",
               "Logistic Regression": "Models a binary outcome or probability.",
-              "Poisson Regression": "Models counts or occurrences in a fixed interval of time or space",
-              "Exponential Regression": "Models exponential growth or decay"
+              "Poisson Regression": "Models counts or occurrences in a fixed interval of time or space.",
+              "Exponential Regression": "Models exponential growth or decay."
             },
             "Regularized Regression": {
-              "Lasso Regression": ["L1 regularization technique.", "Encourages sparse models by introducing a penalty term"],
+              "Lasso Regression": ["L1 regularization technique.", "Encourages sparse models by introducing a penalty term."],
               "Ridge Regression": [
                 "L2 regularization technique.",
-                "Encourages sparse models by introducing a penalty term",
-                "Addresses multicollinearity by adding a regularization term"
+                "Encourages sparse models by introducing a penalty term.",
+                "Addresses multicollinearity by adding a regularization term."
               ]
             },
             "Feature Transformation": {
-              "Normalization": "Scaling features to a similar range",
+              "Normalization": "Scaling features to a similar range.",
               "Polynomial Transformation": "Creating polynomial features to capture non-linear relationships.",
               "Logarithmic Transformation": "Applying logarithmic transformations to handle exponential relationships.",
               "Encoding Categorical Variables": "Transforming categorical variables into numerical representations."
