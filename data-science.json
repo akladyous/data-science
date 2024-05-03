@@ -25,7 +25,7 @@
               "Lasso Regression": ["L1 regularization technique.", "Encourages sparse models by introducing a penalty term"],
               "Ridge Regression": [
                 "L2 regularization technique.",
-                "Encourages sparse models by introducing a penalty term.",
+                "Encourages sparse models by introducing a penalty term",
                 "Addresses multicollinearity by adding a regularization term."
               ]
             },
