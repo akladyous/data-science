@@ -12,7 +12,7 @@
           "Hypothesis Testing": [],
           "Regression Analysis": {
             "Linear Regression": {
-              "Simple Linear Regression": "One independent variable predicts a dependent variable linearly.",
+              "Simple Linear Regression": "One independent variable predicts a dependent variable linearly",
               "Multiple Linear Regression": "Multiple independent variables predict a dependent variable linearly."
             },
             "Nonlinear Regression": {
