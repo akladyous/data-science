@@ -30,7 +30,7 @@
               ]
             },
             "Feature Transformation": {
-              "Normalization": "Scaling features to a similar range.",
+              "Normalization": "Scaling features to a similar range",
               "Polynomial Transformation": "Creating polynomial features to capture non-linear relationships.",
               "Logarithmic Transformation": "Applying logarithmic transformations to handle exponential relationships.",
               "Encoding Categorical Variables": "Transforming categorical variables into numerical representations."
