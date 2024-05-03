@@ -18,7 +18,7 @@
             "Nonlinear Regression": {
               "Polynomial Regression": "Models a nonlinear relationship using polynomial functions",
               "Logistic Regression": "Models a binary outcome or probability.",
-              "Poisson Regression": "Models counts or occurrences in a fixed interval of time or space.",
+              "Poisson Regression": "Models counts or occurrences in a fixed interval of time or space",
               "Exponential Regression": "Models exponential growth or decay."
             },
             "Regularized Regression": {
