@@ -22,7 +22,7 @@
               "Exponential Regression": "Models exponential growth or decay"
             },
             "Regularized Regression": {
-              "Lasso Regression": ["L1 regularization technique.", "Encourages sparse models by introducing a penalty term."],
+              "Lasso Regression": ["L1 regularization technique.", "Encourages sparse models by introducing a penalty term"],
               "Ridge Regression": [
                 "L2 regularization technique.",
                 "Encourages sparse models by introducing a penalty term.",
