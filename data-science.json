@@ -12,7 +12,7 @@
           "Hypothesis Testing": [],
           "Regression Analysis": {
             "Linear Regression": {
-              "Simple Linear Regression": "One independent variable predicts a dependent variable linearly",
+              "Simple Linear Regression": "One independent variable predicts a dependent variable linearly.",
               "Multiple Linear Regression": "Multiple independent variables predict a dependent variable linearly."
             },
             "Nonlinear Regression": {
@@ -31,9 +31,9 @@
             },
             "Feature Transformation": {
               "Normalization": "Scaling features to a similar range.",
-              "Polynomial Transformation": "Creating polynomial features to capture non-linear relationships.",
-              "Logarithmic Transformation": "Applying logarithmic transformations to handle exponential relationships.",
-              "Encoding Categorical Variables": "Transforming categorical variables into numerical representations."
+              "Polynomial Transformation": "Creating polynomial features to capture non-linear relationships",
+              "Logarithmic Transformation": "Applying logarithmic transformations to handle exponential relationships",
+              "Encoding Categorical Variables": "Transforming categorical variables into numerical representations"
             },
             "Regression Error": "Difference between predicted and actual values.",
             "Standard Error": "Measure of variability of a statistic (e.g., regression coefficient)."
