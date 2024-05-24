@@ -85,7 +85,7 @@
     "Decision Tree": ""
   },
   "Machine Learning": {
-    "preprocessing": { "Feature Selection": {}, "Data Cleaning": {}, "Normalization": {} },
+    "preprocessing": { "Feature Selection": {}, "Feature Transformations": {}, "Data Cleaning": {}, "Normalization": {} },
     "algorithms": {
       "Supervised Learning": {
         "classification": {
