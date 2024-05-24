@@ -86,6 +86,17 @@
   },
   "Machine Learning": {
     "preprocessing": { "Feature Selection": {}, "Feature Transformations": {}, "Data Cleaning": {}, "Normalization": {} },
+    "Distance Metrics": {
+      "Calculating Distance for ML Algorithm": {
+        "Types of Distance Metrics in Machine Learning": {
+          "Euclidean Distance": {},
+          "Manhattan Distance": {},
+          "Minkowski Distance": {},
+          "Hamming Distance": {},
+          "Cosine Distance": {}
+        }
+      }
+    },
     "algorithms": {
       "Supervised Learning": {
         "classification": {
