@@ -16,5 +16,6 @@ __pycache__
 
 ### VisualStudioCode ###
 .vscode/*
+**/*.code-workspace
 
 .history/
