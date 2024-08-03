@@ -2,7 +2,6 @@
     "dataScience": {
         "statistics": {
             "Sampling": {
-                "PopulationDistribution": "The population distribution refers to the distribution of a variable across all members of a population.",
                 "SampleDistributions": "Sample distributions describe the distribution of a statistic within a single sample from a population.",
                 "SamplingDistributions": {
                     "SamplingDistributionOfTheSampleMean": "Description or details about the sampling distribution of the sample mean go here.",
@@ -15,7 +14,8 @@
                     "description": "Details about descriptive statistics."
                 },
                 "InferentialStatistics": {
-                    "description": "Details about inferential statistics."
+                    "description": "Details about inferential statistics.",
+                    "PopulationDistribution": "The population distribution refers to the distribution of a variable across all members of a population."
                 }
             },
             "Probability": {
