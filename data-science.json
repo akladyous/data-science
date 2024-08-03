@@ -18,6 +18,7 @@
                 }
             },
             "Probability": {
+                "PopulationDistribution": "The population distribution refers to the distribution of a variable across all members of a population.",
                 "ProbabilityDistributions": {
                     "DiscreteProbabilityDistribution": {
                         "description": "Details about discrete probability distributions."
