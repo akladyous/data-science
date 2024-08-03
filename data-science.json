@@ -11,12 +11,10 @@
                 "Inferential Statistics": {}
             },
             "Probability": {
-                "concepts": ["Random Events", "Sample Space", "Events", "Probability of an Event"],
-                "applications": ["Decision Making", "Risk Assessment", "Machine Learning"]
-            },
-            "Probability Distributions": {
-                "Discrete Probability Distribution": {},
-                "Continuous Probability Distribution": {}
+                "Probability Distributions": {
+                    "Discrete Probability Distribution": {},
+                    "Continuous Probability Distribution": {}
+                }
             }
         }
     },
@@ -24,54 +22,19 @@
         "preprocessing": { "Feature Selection": {}, "Feature Transformations": {}, "Data Cleaning": {}, "Normalization": {} },
         "Distance Metrics": {
             "Calculating Distance for ML Algorithm": {
-                "Types of Distance Metrics in Machine Learning": {
-                    "Euclidean Distance": {},
-                    "Manhattan Distance": {},
-                    "Minkowski Distance": {},
-                    "Hamming Distance": {},
-                    "Cosine Distance": {}
-                }
+                "Types of Distance Metrics in Machine Learning": {}
             }
         },
         "algorithms": {
             "Supervised Learning": {
-                "classification": {
-                    "Logistic Regression": {},
-                    "Support Vector Machines (SVM)": {},
-                    "Decision Trees": {},
-                    "Random Forest": {},
-                    "K-Nearest Neighbors (KNN)": {},
-                    "Naive Bayes": {},
-                    "Gradient Boosting": {},
-                    "AdaBoost": {},
-                    "XGBoost": {},
-                    "LightGBM": {},
-                    "CatBoost": {}
-                },
-                "regression": {
-                    "Linear Regression": {},
-                    "Ridge Regression": {},
-                    "Lasso Regression": {},
-                    "Elastic Net": {},
-                    "Support Vector Regression (SVR)": {},
-                    "Decision Trees": {},
-                    "Random Forest": {},
-                    "Gradient Boosting": {},
-                    "AdaBoost": {},
-                    "XGBoost": {},
-                    "LightGBM": {},
-                    "CatBoost": {}
-                }
+                "classification": {},
+                "regression": {}
             },
             "Unsupervised Learning": {},
             "Semi-Supervised Learning": {}
         },
         "Deep Learning": {
-            "algorithms": {
-                "Convolutional Neural Networks (CNNs)": {},
-                "Recurrent Neural Networks (RNNs)": {},
-                "Generative Adversarial Networks (GANs)": {}
-            }
+            "algorithms": {}
         },
         "Loss Functions": {},
         "Hyperparameter Tuning": {},
