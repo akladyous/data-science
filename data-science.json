@@ -2,18 +2,29 @@
     "dataScience": {
         "statistics": {
             "Sampling": {
-                "Sample Distributions": [],
-                "Sampling Distributions": []
+                "SampleDistributions": [],
+                "SamplingDistributions": {
+                    "SamplingDistributionOfTheSampleMean": "Description or details about the sampling distribution of the sample mean go here.",
+                    "SamplingDistributionOfTheSampleProportion": "Description or details about the sampling distribution of the sample proportion go here."
+                }
             },
-            "Level Of Measurement": [],
-            "Types of Statistical Analysis": {
-                "Descriptive Statistics": {},
-                "Inferential Statistics": {}
+            "LevelOfMeasurement": [],
+            "TypesOfStatisticalAnalysis": {
+                "DescriptiveStatistics": {
+                    "description": "Details about descriptive statistics."
+                },
+                "InferentialStatistics": {
+                    "description": "Details about inferential statistics."
+                }
             },
             "Probability": {
-                "Probability Distributions": {
-                    "Discrete Probability Distribution": {},
-                    "Continuous Probability Distribution": {}
+                "ProbabilityDistributions": {
+                    "DiscreteProbabilityDistribution": {
+                        "description": "Details about discrete probability distributions."
+                    },
+                    "ContinuousProbabilityDistribution": {
+                        "description": "Details about continuous probability distributions."
+                    }
                 }
             }
         }
