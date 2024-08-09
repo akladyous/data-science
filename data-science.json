@@ -17,24 +17,63 @@
                         "Median": "The middle value when data is ordered.",
                         "Mode": "The most frequently occurring value."
                     },
-                    "Dispersion": {
+                    "Measures of Dispersion": {
                         "Range": "The difference between the maximum and minimum values.",
                         "Variance": "The average of the squared differences from the mean.",
-                        "StandardDeviation": "The square root of the variance.",
-                        "InterquartileRange": "The range between the first and third quartiles."
+                        "Standard Deviation": "The square root of the variance.",
+                        "Interquartile Range (IQR)": "The range between the first and third quartiles.",
+                        "Mean Absolute Deviation (MAD)": "The average of the absolute deviations from the mean. MAD = (Σ|xi - μ|) / n",
+                        "Coefficient of Variation (CV)": "A normalized measure of dispersion of a probability distribution or frequency distribution."
+                    },
+                    "Measures of Position": {
+                        "Quartiles (Q1, Q2, Q3)": "Values that divide the data into 4 equal parts.",
+                        "Percentiles": "Values that divide the data into 100 equal parts.",
+                        "Deciles": "Values that divide the data into 10 equal parts."
+                    },
+                    "Measures of Shape": {
+                        "Skewness": "A measure of the asymmetry of the data distribution.",
+                        "Kurtosis": "A measure of the 'tailedness' of the data distribution."
+                    },
+                    "Frequency Distributions": {
+                        "Frequency Tables": "A table that displays the frequency of various outcomes in a sample.",
+                        "Histograms": "A graphical representation of the distribution of numerical data.",
+                        "Bar Charts": "A chart that presents categorical data with rectangular bars.",
+                        "Pie Charts": "A circular statistical graphic divided into slices to illustrate numerical proportions."
+                    },
+                    "Cross-Tabulations": {
+                        "Contingency Tables": "A type of table in a matrix format that displays the frequency distribution of the variables."
+                    },
+                    "Summary Statistics": {
+                        "Five-Number Summary": "Includes the minimum, first quartile (Q1), median, third quartile (Q3), and maximum.",
+                        "Box Plots": "A visual representation of the five-number summary."
+                    },
+                    "Correlation Measures": {
+                        "Pearson Correlation Coefficient": "Measures the linear relationship between two variables.",
+                        "Spearman Rank Correlation": "Measures the monotonic relationship between two variables.",
+                        "Kendall Tau Correlation": "Measures the ordinal association between two variables."
+                    },
+                    "Descriptive Statistics for Categorical Data": {
+                        "Mode": "The most frequent category.",
+                        "Frequency Counts": "The number of occurrences of each category.",
+                        "Proportions and Percentages": "Proportion and percentage of each category."
+                    },
+                    "Descriptive Statistics for Time Series Data": {
+                        "Trend Analysis": "Examining data to identify consistent upward or downward movement.",
+                        "Seasonality Analysis": "Looking for repeating patterns or cycles in the data at regular intervals.",
+                        "Autocorrelation": "The correlation of a signal with a delayed copy of itself."
                     }
                 },
                 "Inferential Statistics": {
                     "description": "Details about inferential statistics.",
-                    "PopulationDistribution": "The population distribution refers to the distribution of a variable across all members of a population."
+                    "Population Distribution": "The population distribution refers to the distribution of a variable across all members of a population."
                 }
             },
             "Probability": {
-                "ProbabilityDistributions": {
-                    "DiscreteProbabilityDistribution": {
+                "Probability Distributions": {
+                    "Discrete Probability Distribution": {
                         "description": "Details about discrete probability distributions."
                     },
-                    "ContinuousProbabilityDistribution": {
+                    "Continuous Probability Distribution": {
                         "description": "Details about continuous probability distributions."
                     }
                 }
@@ -42,22 +81,27 @@
         }
     },
     "Machine Learning": {
-        "preprocessing": { "Feature Selection": {}, "Feature Transformations": {}, "Data Cleaning": {}, "Normalization": {} },
+        "Preprocessing": {
+            "Feature Selection": {},
+            "Feature Transformations": {},
+            "Data Cleaning": {},
+            "Normalization": {}
+        },
         "Distance Metrics": {
             "Calculating Distance for ML Algorithm": {
                 "Types of Distance Metrics in Machine Learning": {}
             }
         },
-        "algorithms": {
+        "Algorithms": {
             "Supervised Learning": {
-                "classification": {},
-                "regression": {}
+                "Classification": {},
+                "Regression": {}
             },
             "Unsupervised Learning": {},
             "Semi-Supervised Learning": {}
         },
         "Deep Learning": {
-            "algorithms": {}
+            "Algorithms": {}
         },
         "Loss Functions": {},
         "Hyperparameter Tuning": {},
