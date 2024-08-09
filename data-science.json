@@ -8,11 +8,11 @@
                     "SamplingDistributionOfTheSampleProportion": "Description or details about the sampling distribution of the sample proportion go here."
                 }
             },
-            "LevelOfMeasurement": [],
+            "Level Of Measurement": [],
             "Statistical Analysis": {
-                "DescriptiveStatistics": {
+                "Descriptive Statistics": {
                     "description": "Details about descriptive statistics.",
-                    "CentralTendency": {
+                    "Central Tendency": {
                         "Mean": "The average of all data points.",
                         "Median": "The middle value when data is ordered.",
                         "Mode": "The most frequently occurring value."
@@ -24,7 +24,7 @@
                         "InterquartileRange": "The range between the first and third quartiles."
                     }
                 },
-                "InferentialStatistics": {
+                "Inferential Statistics": {
                     "description": "Details about inferential statistics.",
                     "PopulationDistribution": "The population distribution refers to the distribution of a variable across all members of a population."
                 }
