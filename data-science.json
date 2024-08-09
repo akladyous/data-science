@@ -9,7 +9,7 @@
                 }
             },
             "LevelOfMeasurement": [],
-            "TypesOfStatisticalAnalysis": {
+            "Statistical Analysis": {
                 "DescriptiveStatistics": {
                     "description": "Details about descriptive statistics.",
                     "CentralTendency": {
