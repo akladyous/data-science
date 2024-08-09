@@ -11,7 +11,18 @@
             "LevelOfMeasurement": [],
             "TypesOfStatisticalAnalysis": {
                 "DescriptiveStatistics": {
-                    "description": "Details about descriptive statistics."
+                    "description": "Details about descriptive statistics.",
+                    "CentralTendency": {
+                        "Mean": "The average of all data points.",
+                        "Median": "The middle value when data is ordered.",
+                        "Mode": "The most frequently occurring value."
+                    },
+                    "Dispersion": {
+                        "Range": "The difference between the maximum and minimum values.",
+                        "Variance": "The average of the squared differences from the mean.",
+                        "StandardDeviation": "The square root of the variance.",
+                        "InterquartileRange": "The range between the first and third quartiles."
+                    }
                 },
                 "InferentialStatistics": {
                     "description": "Details about inferential statistics.",
