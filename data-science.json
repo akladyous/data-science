@@ -78,6 +78,24 @@
                     }
                 }
             }
+        },
+        "EDA": {
+            "description": "Exploratory Data Analysis involves summarizing the main characteristics of a dataset, often with visual methods, to uncover patterns, spot anomalies, test hypotheses, and check assumptions.",
+            "Techniques": {
+                "Data Visualization": {
+                    "Histograms": "Visualize the distribution of data.",
+                    "Scatter Plots": "Examine relationships between two continuous variables.",
+                    "Box Plots": "Show distributions and identify outliers."
+                },
+                "Descriptive Statistics": {
+                    "Summary Statistics": "Basic measures such as mean, median, and standard deviation.",
+                    "Frequency Distributions": "Understand the distribution of categorical variables."
+                },
+                "Data Cleaning": {
+                    "Handling Missing Values": "Techniques to address missing data.",
+                    "Identifying Outliers": "Methods to detect and manage outliers."
+                }
+            }
         }
     },
     "Machine Learning": {
