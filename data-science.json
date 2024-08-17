@@ -70,12 +70,8 @@
             },
             "Probability": {
                 "Probability Distributions": {
-                    "Discrete Probability Distribution": {
-                        "description": "Details about discrete probability distributions."
-                    },
-                    "Continuous Probability Distribution": {
-                        "description": "Details about continuous probability distributions."
-                    }
+                    "Discrete Probability Distribution": {},
+                    "Continuous Probability Distribution": {}
                 }
             }
         },
