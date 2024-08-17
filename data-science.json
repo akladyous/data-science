@@ -27,22 +27,14 @@
                     },
                     "Measures of Position": {},
                     "Measures of Shape": {},
-                    "Frequency Distributions": {
-                        "Frequency Tables": "A table that displays the frequency of various outcomes in a sample.",
-                        "Histograms": "A graphical representation of the distribution of numerical data.",
-                        "Bar Charts": "A chart that presents categorical data with rectangular bars.",
-                        "Pie Charts": "A circular statistical graphic divided into slices to illustrate numerical proportions."
-                    },
+                    "Frequency Distributions": {},
                     "Correlation Measures": {
                         "Pearson Correlation Coefficient": "Measures the linear relationship between two variables.",
                         "Spearman Rank Correlation": "Measures the monotonic relationship between two variables.",
                         "Kendall Tau Correlation": "Measures the ordinal association between two variables."
                     }
                 },
-                "Inferential Statistics": {
-                    "description": "Details about inferential statistics.",
-                    "Population Distribution": "The population distribution refers to the distribution of a variable across all members of a population."
-                }
+                "Inferential Statistics": {}
             },
             "Probability": {
                 "Probability Distributions": {
