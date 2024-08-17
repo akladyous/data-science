@@ -43,10 +43,6 @@
                     "Cross-Tabulations": {
                         "Contingency Tables": "A type of table in a matrix format that displays the frequency distribution of the variables."
                     },
-                    "Summary Statistics": {
-                        "Five-Number Summary": "Includes the minimum, first quartile (Q1), median, third quartile (Q3), and maximum.",
-                        "Box Plots": "A visual representation of the five-number summary."
-                    },
                     "Correlation Measures": {
                         "Pearson Correlation Coefficient": "Measures the linear relationship between two variables.",
                         "Spearman Rank Correlation": "Measures the monotonic relationship between two variables.",
