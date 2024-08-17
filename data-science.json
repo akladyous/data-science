@@ -34,7 +34,9 @@
                         "Kendall Tau Correlation": "Measures the ordinal association between two variables."
                     }
                 },
-                "Inferential Statistics": {}
+                "Inferential Statistics": {
+                    "Confidence Intervals": {}
+                }
             },
             "Probability": {
                 "Probability Distributions": {
