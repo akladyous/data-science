@@ -26,18 +26,12 @@
                         "Coefficient of Variation (CV)": "A normalized measure of dispersion of a probability distribution or frequency distribution."
                     },
                     "Measures of Position": {},
-                    "Measures of Shape": {
-                        "Skewness": "A measure of the asymmetry of the data distribution.",
-                        "Kurtosis": "A measure of the 'tailedness' of the data distribution."
-                    },
+                    "Measures of Shape": {},
                     "Frequency Distributions": {
                         "Frequency Tables": "A table that displays the frequency of various outcomes in a sample.",
                         "Histograms": "A graphical representation of the distribution of numerical data.",
                         "Bar Charts": "A chart that presents categorical data with rectangular bars.",
                         "Pie Charts": "A circular statistical graphic divided into slices to illustrate numerical proportions."
-                    },
-                    "Cross-Tabulations": {
-                        "Contingency Tables": "A type of table in a matrix format that displays the frequency distribution of the variables."
                     },
                     "Correlation Measures": {
                         "Pearson Correlation Coefficient": "Measures the linear relationship between two variables.",
