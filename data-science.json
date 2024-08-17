@@ -51,11 +51,6 @@
                         "Pearson Correlation Coefficient": "Measures the linear relationship between two variables.",
                         "Spearman Rank Correlation": "Measures the monotonic relationship between two variables.",
                         "Kendall Tau Correlation": "Measures the ordinal association between two variables."
-                    },
-                    "Descriptive Statistics for Categorical Data": {
-                        "Mode": "The most frequent category.",
-                        "Frequency Counts": "The number of occurrences of each category.",
-                        "Proportions and Percentages": "Proportion and percentage of each category."
                     }
                 },
                 "Inferential Statistics": {
