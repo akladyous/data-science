@@ -35,7 +35,15 @@
                     }
                 },
                 "Inferential Statistics": {
-                    "Confidence Intervals": {}
+                    "Confidence Intervals": {},
+                    "Standard Error": {
+                        "definition": "The standard error measures the variability of a sample statistic (e.g., sample mean) from the population parameter. It is calculated as the standard deviation of the sampling distribution of the statistic.",
+                        "Formula": {
+                            "For Sample Mean (Population SD Known)": "SE = \frac{sigma}{sqrt{n}}",
+                            "For Sample Mean (Population SD Unknown)": "SE = \frac{s}{sqrt{n}}",
+                            "For Sample Proportion": "SE = sqrt{\frac{p(1 - p)}{n}}"
+                        }
+                    }
                 }
             },
             "Probability": {
