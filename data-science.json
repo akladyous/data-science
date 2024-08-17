@@ -56,11 +56,6 @@
                         "Mode": "The most frequent category.",
                         "Frequency Counts": "The number of occurrences of each category.",
                         "Proportions and Percentages": "Proportion and percentage of each category."
-                    },
-                    "Descriptive Statistics for Time Series Data": {
-                        "Trend Analysis": "Examining data to identify consistent upward or downward movement.",
-                        "Seasonality Analysis": "Looking for repeating patterns or cycles in the data at regular intervals.",
-                        "Autocorrelation": "The correlation of a signal with a delayed copy of itself."
                     }
                 },
                 "Inferential Statistics": {
