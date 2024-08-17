@@ -25,11 +25,7 @@
                         "Mean Absolute Deviation (MAD)": "The average of the absolute deviations from the mean. MAD = (Σ|xi - μ|) / n",
                         "Coefficient of Variation (CV)": "A normalized measure of dispersion of a probability distribution or frequency distribution."
                     },
-                    "Measures of Position": {
-                        "Quartiles (Q1, Q2, Q3)": "Values that divide the data into 4 equal parts.",
-                        "Percentiles": "Values that divide the data into 100 equal parts.",
-                        "Deciles": "Values that divide the data into 10 equal parts."
-                    },
+                    "Measures of Position": {},
                     "Measures of Shape": {
                         "Skewness": "A measure of the asymmetry of the data distribution.",
                         "Kurtosis": "A measure of the 'tailedness' of the data distribution."
