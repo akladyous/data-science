@@ -36,6 +36,7 @@
                 },
                 "Inferential Statistics": {
                     "Confidence Intervals": {},
+                    "Hypothesis Testing": {},
                     "Standard Error": {
                         "definition": "The standard error measures the variability of a sample statistic (e.g., sample mean) from the population parameter. It is calculated as the standard deviation of the sampling distribution of the statistic.",
                         "Formula": {
