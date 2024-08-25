@@ -2,16 +2,25 @@
     "dataScience": {
         "statistics": {
             "Sampling": {
-                "SampleDistributions": "Sample distributions describe the distribution of a statistic within a single sample from a population.",
-                "SamplingDistributions": {
-                    "SamplingDistributionOfTheSampleMean": "Description or details about the sampling distribution of the sample mean go here.",
-                    "SamplingDistributionOfTheSampleProportion": "Description or details about the sampling distribution of the sample proportion go here."
+                "Data Collection": {
+                    "Data Cleaning": {},
+                    "Grouping Data into Intervals": {}
                 }
             },
-            "Level Of Measurement": [],
+            "Level Of Measurement": {},
+            "Statistical Measures": {
+                "Variance": "",
+                "Covariance": "",
+                "Variance Inflation Factor (VIF)": ""
+            },
+            "Statistical Distributions": {
+                "Population Distribution": {},
+                "Sample Distribution": {},
+                "Sampling Distributions": {}
+            },
             "Statistical Analysis": {
                 "Descriptive Statistics": {
-                    "description": "Details about descriptive statistics.",
+                    "Frequency Distributions": {},
                     "Central Tendency": {
                         "Mean": "The average of all data points.",
                         "Median": "The middle value when data is ordered.",
@@ -25,18 +34,73 @@
                         "Mean Absolute Deviation (MAD)": "The average of the absolute deviations from the mean. MAD = (Σ|xi - μ|) / n",
                         "Coefficient of Variation (CV)": "A normalized measure of dispersion of a probability distribution or frequency distribution."
                     },
-                    "Measures of Position": {},
-                    "Measures of Shape": {},
-                    "Frequency Distributions": {},
-                    "Correlation Measures": {
+                    "Measures of Position": {
+                        "Quartiles": "",
+                        "Percentiles": "",
+                        "Deciles": ""
+                    },
+                    "Measures of Shape": {
+                        "Skewness": {
+                            "Pearson Coefficient Of Skewness": ""
+                        },
+                        "Kurtosis": ""
+                    },
+                    "Measures of Correlation": {
                         "Pearson Correlation Coefficient": "Measures the linear relationship between two variables.",
                         "Spearman Rank Correlation": "Measures the monotonic relationship between two variables.",
                         "Kendall Tau Correlation": "Measures the ordinal association between two variables."
                     }
                 },
                 "Inferential Statistics": {
-                    "Confidence Intervals": {},
-                    "Hypothesis Testing": {},
+                    "Confidence Intervals": {
+                        "Margin of Error": "",
+                        "Confidence Intervals for Proportions": ""
+                    },
+                    "Hypothesis Testing": {
+                        "Hypothesis Testing: Overview": "",
+                        "Types of Statistical Tests": {
+                            "Parametric Tests": {
+                                "Z-Test": {
+                                    "Description": "Used when the population variance is known and the sample size is large (n > 30). It assesses whether the sample mean significantly differs from the population mean.",
+                                    "Formula": "Z = (X̄ - μ) / (σ / √n)"
+                                },
+                                "T-Test": {
+                                    "Description": "Used when the population variance is unknown or the sample size is small (n ≤ 30). It assesses whether the sample mean significantly differs from the population mean.",
+                                    "Formula": "T = (X̄ - μ) / (s / √n)"
+                                },
+                                "ANOVA-Test": {
+                                    "Description": "Analysis of Variance (ANOVA) tests differences between means of three or more groups. It checks if at least one group mean is significantly different from the others.",
+                                    "Formula": "F = (Between-group variance) / (Within-group variance)"
+                                }
+                            },
+                            "Non-Parametric Tests": {
+                                "Chi-Square Test": {
+                                    "Description": "Used to assess the association between categorical variables. It tests whether the observed frequencies in a contingency table differ significantly from the expected frequencies.",
+                                    "Formula": "χ² = Σ ((O - E)² / E)"
+                                },
+                                "Mann-Whitney U Test": {
+                                    "Description": "Used to determine if there is a significant difference between the distributions of two independent groups. It is a non-parametric alternative to the independent t-test.",
+                                    "Formula": "U = min(U1, U2), where U1 and U2 are calculated based on the ranks of the data."
+                                },
+                                "Wilcoxon Rank-Sum Test": {
+                                    "Description": "Another name for the Mann-Whitney U Test. It involves ranking all observations from both groups and then summing the ranks for each group.",
+                                    "Formula": "U = min(U1, U2), where U1 and U2 are calculated based on the ranks of the data."
+                                },
+                                "Wilcoxon Signed-Rank Test": {
+                                    "Description": "Used to test for differences between paired observations. It is a non-parametric alternative to the paired t-test.",
+                                    "Formula": "The test statistic is the sum of the signed ranks of the differences between paired observations."
+                                },
+                                "Kruskal-Wallis Test": {
+                                    "Description": "Used to test for differences between the distributions of three or more independent groups. It is a non-parametric alternative to one-way ANOVA.",
+                                    "Formula": "H = (12 / (N * (N + 1))) * Σ (R_i² / n_i) - 3 * (N + 1), where R_i is the sum of ranks for the i-th group, n_i is the number of observations in the i-th group, and N is the total number of observations."
+                                }
+                            }
+                        },
+                        "Types of Errors in Hypothesis Testing": {
+                            "Type I Error": "",
+                            "Type II Error": ""
+                        }
+                    },
                     "Standard Error": {
                         "definition": "The standard error measures the variability of a sample statistic (e.g., sample mean) from the population parameter. It is calculated as the standard deviation of the sampling distribution of the statistic.",
                         "Formula": {
@@ -48,9 +112,26 @@
                 }
             },
             "Probability": {
+                "Random Variable": "",
+                "Expected Values": "",
                 "Probability Distributions": {
                     "Discrete Probability Distribution": {},
-                    "Continuous Probability Distribution": {}
+                    "Continuous Probability Distribution": {
+                        "Normal Distribution": "",
+                        "Standard Normal Distribution": "",
+                        "T-Distribution": "",
+                        "Chi-Square Distribution": "",
+                        "Gamma Distribution": "",
+                        "Log-Normal distribution": ""
+                    }
+                },
+                "Probability Distribution Functions": {
+                    "Probability Mass Function (PMF)": "",
+                    "Probability Density Function (PDF)": "",
+                    "Cumulative Distribution Function (CDF)": "",
+                    "Percent point function (PPF)": "",
+                    "Survival function": "",
+                    "Empirical Distribution Function (EDF)": ""
                 }
             }
         },
